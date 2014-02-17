@@ -1,0 +1,9 @@
+<section>
+<h2>News & links</h2>
+<ul class="posts list-unstyled">
+  {% for post in site.posts %}
+  {% if post.href %}
+  <li><a href="{{ post.href }}">{{ post.title }}</a> <span class="glyphicon glyphicon-link"></span></li>
+  {% endif %}{% endfor %}
+</ul>
+</section>

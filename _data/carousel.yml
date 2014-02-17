@@ -1,0 +1,20 @@
+- pic: "http://lorempixel.com/1300/350/cats/4"
+  title: "Lorem IPSUM"
+  para: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  href: "http://example.com"
+- pic: "http://lorempixel.com/1300/350/cats/4"
+  title: "Lorem IPSUM 2"
+  para: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  href: "http://example.com"
+- pic: "http://lorempixel.com/1300/350/cats/4"
+  title: "Lorem IPSUM 3"
+  para: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  href: "http://example.com"
+- pic: "http://lorempixel.com/1300/350/cats/4"
+  title: "Lorem IPSUM 4"
+  para: |
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  href: "http://example.com"

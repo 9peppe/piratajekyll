@@ -1,0 +1,4 @@
+name: A Kind of a Site
+baseurl: /piratajekyll
+markdown: redcarpet
+pygments: true
