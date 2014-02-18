@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include common_head.html %}
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  {% include navbar.html %} 
+  <div id="contenitore" class="container">
+    {% case top %}
+      {% when 'carousel' %}{% include carousel.html %}
+      {% when 'jumbotron' %}{% include jumbotron.html %}
+    {% endcase %}
+    <div class="row">
+      {{ content }}
+    </div> <!-- /.row -->
+    <div class="row small" id="footer">
+      {% include footer.html %}
+    </div>
+  </div> <!-- /#contenitore .container -->
+{% include body_end.html %}
+</body>
+</html>
