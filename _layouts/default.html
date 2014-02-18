@@ -8,8 +8,9 @@
   {% include navbar.html %} 
   <div id="contenitore" class="container">
     {% case top %}
-      {% when 'carousel' %}{% include carousel.html %}
-      {% when 'jumbotron' %}{% include jumbotron.html %}
+      {% when carousel %}{% include carousel.html %}
+      {% when jumbotron %}{% include jumbotron.html %}
+      {% else %} <!-- error -->
     {% endcase %}
     <div class="row">
       {{ content }}
